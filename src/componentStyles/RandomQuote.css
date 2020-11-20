@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+.Alert {
+  width: 400px;
+  margin: 0 auto;
+}
+
+/* random button styles */
+.RandomBtnDiv {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 30px 100px 0;
+}
+
+.Brand h2 {
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 600;
+  font-size: 36px;
+  color: #4f4f4f;
+  margin: 0 0 0 40px;
+  cursor: pointer;
+}
+
+.RandomBtn {
+  display: flex;
+  gap: 5px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.RandomBtn:focus {
+  outline: none;
+}
+
+.RandomBtnText {
+  font-family: 'Raleway' sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+  /* identical to box height, or 22px */
+  color: #4f4f4f;
+  text-transform: lowercase;
+}
+
+.RandomBtnText:hover,
+.Renew:hover {
+  color: #9b9393;
+  text-decoration: underline;
+}
+
+.Renew {
+  color: #4f4f4f;
+  margin-top: -2px;
+}
+
+/* random quote styles */
+
+.QouteContainer {
+  margin: 0 auto;
+  width: 720px;
+  height: 100%;
+  /* border: 1px solid green; */
+}
+
+.Quote {
+  margin: 0 auto 50px auto;
+  width: 90%;
+  height: 100%;
+  /* border: 1px solid purple; */
+}
+
+.RandomQuote {
+  font-family: 'Raleway' sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+  /* or 43px */
+  color: #000000;
+  text-align: left;
+  margin: 0;
+  border-left: 6px solid #f7df94;
+  padding-left: 50px;
+}
+
+/* quote author styles */
+.QuoteAuthorLink {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px auto 20px auto;
+  width: 600px;
+  height: 101px;
+  background: #333333;
+  /* border: 3px solid red; */
+}
+
+.QuoteAuthor {
+  font-family: 'Raleway' sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f2f2f2;
+  /* margin-left: 28px; */
+}
+
+.QuoteGenre {
+  font-family: 'Raleway' sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #828282;
+  /* margin-top: -20px; */
+  text-transform: capitalize;
+  display: block;
+}
+
+.AuthorInfo {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.Arrow {
+  color: #f2f2f2;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+/* footer styles */
+.Footer {
+  font-family: 'Montserrat' sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #a9a9a9;
+  margin: 80px 0 20px 0;
+}
+
+/* quote list styles  */
+
+.AuthorName {
+  font-family: 'Raleway' sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: #333333;
+  margin: 0 0 50px 100px;
+  text-align: left;
+}
